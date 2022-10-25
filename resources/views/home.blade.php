@@ -1,112 +1,136 @@
 @extends('app')
 
 @section('content')
-    <section class="u-align-center u-clearfix u-image u-shading u-section-1" style="background-image: url(../images/3D-Printers-for-Mathematics-Education-dark.png);" src="" id="sec-7982" data-image-width="1000" data-image-height="750">
-      <div class="u-clearfix u-sheet u-sheet-1">
+<section class="u-align-center u-clearfix u-image u-shading u-section-1"
+    style="background-image: url(../images/3D-Printers-for-Mathematics-Education-dark.png);" src="" id="sec-7982"
+    data-image-width="1000" data-image-height="750">
+    <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-default u-title u-text-1">3D MATH</h1>
-        <p class="u-large-text u-text u-text-default u-text-variant u-text-2">O lugar perfeito para encontrar modelos matemáticos de alta qualidade.</p>
-        <a href="#" class="u-border-2 u-border-palette-2-base u-btn u-button-style u-hover-palette-2-base u-none u-text-hover-white u-text-palette-2-base u-btn-1">SAIBA MAIS</a>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-section-2" id="sec-1996">
-      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-large-text u-text u-text-default u-text-variant u-text-2">O lugar perfeito para encontrar modelos
+            matemáticos de alta qualidade.</p>
+        <a href="#"
+            class="u-border-2 u-border-palette-2-base u-btn u-button-style u-hover-palette-2-base u-none u-text-hover-white u-text-palette-2-base u-btn-1">SAIBA
+            MAIS</a>
+    </div>
+</section>
+<section class="u-align-center u-clearfix u-section-2" id="sec-1996">
+    <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Cadastre-se</h2>
         <div class="u-form u-form-1">
-          <form action="https://forms.nicepagesrv.com/Form/Process" class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px;" source="email">
-            <div class="u-form-group u-form-name u-label-none">
-              <label for="name-ef64" class="u-label">Name</label>
-              <input type="text" placeholder="Nome" id="name-ef64" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
-            </div>
-            <div class="u-form-email u-form-group u-label-none">
-              <label for="email-ef64" class="u-label">Email</label>
-              <input type="email" placeholder="Email" id="email-ef64" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
-            </div>
-            <div class="u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-submit u-button-style">Entrar</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
-            </div>
-            <div class="u-form-send-message u-form-send-success">#FormSendSuccess</div>
-            <div class="u-form-send-error u-form-send-message">#FormSendError</div>
-            <input type="hidden" value="" name="recaptchaResponse">
-            <input type="hidden" name="formServices" value="cc160b87be88e86df69fb5c0fa0b0798">
-          </form>
+            <form action="https://forms.nicepagesrv.com/Form/Process"
+                class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px;"
+                source="email">
+                <div class="u-form-group u-form-name u-label-none">
+                    <label for="name-ef64" class="u-label">Name</label>
+                    <input type="text" placeholder="Nome" id="name-ef64" name="name"
+                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
+                </div>
+                <div class="u-form-email u-form-group u-label-none">
+                    <label for="email-ef64" class="u-label">Email</label>
+                    <input type="email" placeholder="Email" id="email-ef64" name="email"
+                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
+                </div>
+                <div class="u-form-group u-form-submit">
+                    <a href="#" class="u-btn u-btn-submit u-button-style">Entrar</a>
+                    <input type="submit" value="submit" class="u-form-control-hidden">
+                </div>
+                <div class="u-form-send-message u-form-send-success">#FormSendSuccess</div>
+                <div class="u-form-send-error u-form-send-message">#FormSendError</div>
+                <input type="hidden" value="" name="recaptchaResponse">
+                <input type="hidden" name="formServices" value="cc160b87be88e86df69fb5c0fa0b0798">
+            </form>
         </div>
-      </div>
-    </section>
-    
-    <section class="u-align-center u-clearfix u-section-4" id="carousel_1ba4">
-      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+    </div>
+</section>
+
+<section class="u-align-center u-clearfix u-section-4" id="carousel_1ba4">
+    <div
+        class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <h2 class="u-text u-text-1">Modelos em Destaque</h2>
-        <p class="u-text u-text-2">Estes são os modelos mais pesquisados da plataforma.&nbsp;<br>Veja os comentários de pessoas que já compraram nossos produtos.
+        <p class="u-text u-text-2">Estes são os modelos mais pesquisados da plataforma.&nbsp;<br>Veja os comentários de
+            pessoas que já compraram nossos produtos.
         </p>
         <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                <img src="../images/modelos_esferas.png" alt="" class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700" data-image-height="700">
-                <div class="u-align-center u-container-style u-group u-white u-group-1">
-                  <div class="u-container-layout u-valign-top u-container-layout-2">
-                    <h6 class="u-text u-text-default u-text-3">A partir de</h6>
-                    <h3 class="u-text u-text-4">R$ 60</h3>
-                    <h6 class="u-text u-text-default u-text-5">Esfereas<br>
-                    </h6>
-                  </div>
+            <div class="u-repeater u-repeater-1">
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
+                        <img src="../images/modelos_esferas.png" alt=""
+                            class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700"
+                            data-image-height="700">
+                        <div class="u-align-center u-container-style u-group u-white u-group-1">
+                            <div class="u-container-layout u-valign-top u-container-layout-2">
+                                <h6 class="u-text u-text-default u-text-3">A partir de</h6>
+                                <h3 class="u-text u-text-4">R$ 60</h3>
+                                <h6 class="u-text u-text-default u-text-5">Esfereas<br>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                <img src="../images/modelos_parabuloides.png" alt="" class="u-expanded-width u-image u-image-default u-image-2" data-image-width="700" data-image-height="700">
-                <div class="u-align-center u-container-style u-group u-video-cover u-white u-group-2">
-                  <div class="u-container-layout u-valign-top u-container-layout-4">
-                    <h6 class="u-text u-text-default u-text-6"> A partir de<br>
-                    </h6>
-                    <h3 class="u-text u-text-default u-text-7">R$ 120</h3>
-                    <h6 class="u-text u-text-default u-text-8">Parabolóides<br>
-                    </h6>
-                  </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
+                        <img src="../images/modelos_parabuloides.png" alt=""
+                            class="u-expanded-width u-image u-image-default u-image-2" data-image-width="700"
+                            data-image-height="700">
+                        <div class="u-align-center u-container-style u-group u-video-cover u-white u-group-2">
+                            <div class="u-container-layout u-valign-top u-container-layout-4">
+                                <h6 class="u-text u-text-default u-text-6"> A partir de<br>
+                                </h6>
+                                <h3 class="u-text u-text-default u-text-7">R$ 120</h3>
+                                <h6 class="u-text u-text-default u-text-8">Parabolóides<br>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
-                <img src="../images/modelos_trapesoides.png" alt="" class="u-expanded-width u-image u-image-default u-image-3" data-image-width="700" data-image-height="700">
-                <div class="u-align-center u-container-style u-group u-video-cover u-white u-group-3">
-                  <div class="u-container-layout u-valign-top u-container-layout-6">
-                    <h6 class="u-text u-text-default u-text-9"> A partir de<br>
-                    </h6>
-                    <h3 class="u-text u-text-default u-text-10">R$ 50</h3>
-                    <h6 class="u-text u-text-default u-text-11">Trapezoides</h6>
-                  </div>
+                <div class="u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
+                        <img src="../images/modelos_trapesoides.png" alt=""
+                            class="u-expanded-width u-image u-image-default u-image-3" data-image-width="700"
+                            data-image-height="700">
+                        <div class="u-align-center u-container-style u-group u-video-cover u-white u-group-3">
+                            <div class="u-container-layout u-valign-top u-container-layout-6">
+                                <h6 class="u-text u-text-default u-text-9"> A partir de<br>
+                                </h6>
+                                <h3 class="u-text u-text-default u-text-10">R$ 50</h3>
+                                <h6 class="u-text u-text-default u-text-11">Trapezoides</h6>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-        <a href="" class="u-active-black u-border-2 u-border-black u-btn u-button-style u-hover-black u-text-black u-text-hover-white u-white u-btn-1" target="_blank">Ver todos os modelos</a>
-      </div>
-    </section>
-    <section class="u-clearfix u-grey-5 u-section-5" id="sec-02c1">
-      <div class="u-clearfix u-sheet u-sheet-1">
+        <a href=""
+            class="u-active-black u-border-2 u-border-black u-btn u-button-style u-hover-black u-text-black u-text-hover-white u-white u-btn-1"
+            target="_blank">Ver todos os modelos</a>
+    </div>
+</section>
+<section class="u-clearfix u-grey-5 u-section-5" id="sec-02c1">
+    <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout" style="">
-            <div class="u-layout-row" style="">
-              <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-                <div class="u-container-layout u-valign-middle u-container-layout-1">
-                  <h2 class="u-align-center u-text u-text-default u-text-1">Pesquise por Categoria</h2>
-                  <p class="u-align-center u-text u-text-2">Descubra nossos produtos navegando por categorias.</p>
-                  <a href="#" class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Ver Modelos</a>
+            <div class="u-layout" style="">
+                <div class="u-layout-row" style="">
+                    <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1"
+                        src="">
+                        <div class="u-container-layout u-valign-middle u-container-layout-1">
+                            <h2 class="u-align-center u-text u-text-default u-text-1">Pesquise por Categoria</h2>
+                            <p class="u-align-center u-text u-text-2">Descubra nossos produtos navegando por categorias.
+                            </p>
+                            <a href="#"
+                                class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Ver
+                                Modelos</a>
+                        </div>
+                    </div>
+                    <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1"
+                        src="" data-image-width="720" data-image-height="405">
+                        <div class="u-container-layout u-valign-middle u-container-layout-2" src=""></div>
+                    </div>
                 </div>
-              </div>
-              <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="720" data-image-height="405">
-                <div class="u-container-layout u-valign-middle u-container-layout-2" src=""></div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-    <!--
+    </div>
+</section>
+<!--
     <section class="u-align-center u-clearfix u-section-6" id="sec-db75">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">Produto Mais Vendido</h1>
@@ -183,41 +207,47 @@
         </div>
       </div>
     </section>-->
-    <section class="u-align-center u-clearfix u-section-8" id="sec-1802">
-      <div class="u-clearfix u-sheet u-sheet-1">
+<section class="u-align-center u-clearfix u-section-8" id="sec-1802">
+    <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">O que os nossos cliente dizem?</h2>
-        <p class="u-text u-text-2">Para ver mais comentários <a href="" class="u-active-none u-border-1 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" target="_blank">clique aqui</a>. 
+        <p class="u-text u-text-2">Para ver mais comentários <a href=""
+                class="u-active-none u-border-1 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"
+                target="_blank">clique aqui</a>.
         </p>
         <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="256" data-image-height="256"></div>
-                <p class="u-text u-text-3">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
-                <h5 class="u-text u-text-4">Manuela Ferreira</h5>
-                <h6 class="u-text u-text-5">Professora</h6>
-              </div>
+            <div class="u-repeater u-repeater-1">
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                        <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="256"
+                            data-image-height="256"></div>
+                        <p class="u-text u-text-3">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de
+                            cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
+                        <h5 class="u-text u-text-4">Manuela Ferreira</h5>
+                        <h6 class="u-text u-text-5">Professora</h6>
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                        <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="256"
+                            data-image-height="256"></div>
+                        <p class="u-text u-text-6">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de
+                            cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
+                        <h5 class="u-text u-text-7">Nilda Medida</h5>
+                        <h6 class="u-text u-text-8">Coordenadora</h6>
+                    </div>
+                </div>
+                <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                        <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="256"
+                            data-image-height="256"></div>
+                        <p class="u-text u-text-9">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de
+                            cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
+                        <h5 class="u-text u-text-10">Ricardo Teixeira</h5>
+                        <h6 class="u-text u-text-11">Professor</h6>
+                    </div>
+                </div>
             </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-                <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="256" data-image-height="256"></div>
-                <p class="u-text u-text-6">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
-                <h5 class="u-text u-text-7">Nilda Medida</h5>
-                <h6 class="u-text u-text-8">Coordenadora</h6>
-              </div>
-            </div>
-            <div class="u-align-center u-container-style u-list-item u-repeater-item">
-              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-                <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="256" data-image-height="256"></div>
-                <p class="u-text u-text-9">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
-                <h5 class="u-text u-text-10">Ricardo Teixeira</h5>
-                <h6 class="u-text u-text-11">Professor</h6>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
-    @endsection
-    
-    
+    </div>
+</section>
+@endsection
