@@ -13,12 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('clients', function (Blueprint $table) {
+        Schema::create('client', function (Blueprint $table) {
             $table->id('ClientID');
-            $table->string('Name', 100);
-            $table->string('Email',100); 
-            $table->unsignedInteger('Cpf', 12);
+            $table->string('Name');
+            $table->string('Email'); 
+            $table->string('Password');
+            $table->unsignedBigInteger('OccupationIDFK');
             $table->timestamps();
+
+            $table->foreign('OccupationIDFK')->on('occupation')->references('OccupationID')->cascadeOnDelete();
         });
     }
 
@@ -29,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('clients');
+        Schema::dropIfExists('client');
     }
 };
