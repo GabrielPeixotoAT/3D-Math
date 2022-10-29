@@ -47,7 +47,7 @@
     <div
         class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <h2 class="u-text u-text-1">Modelos em Destaque</h2>
-        <p class="u-text u-text-2">Estes são os modelos mais pesquisados da plataforma.&nbsp;<br>Veja os comentários de
+        <p class="u-text u-text-2">Estes são os modelos mais comprados da plataforma.&nbsp;<br>Veja os comentários de
             pessoas que já compraram nossos produtos.
         </p>
         <div class="u-expanded-width u-list u-list-1">

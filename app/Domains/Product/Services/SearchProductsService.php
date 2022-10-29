@@ -20,4 +20,9 @@ class SearchProductsService
     {
         return Product::where('CategoryIDFK', $categoryID)->get();
     }
+
+    public function getMostSell()
+    {
+        return Product::orderBy('NumberOfSales')->limit(3)->get();
+    }
 }
