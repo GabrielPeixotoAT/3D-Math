@@ -13,11 +13,13 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('salestatus', function (Blueprint $table) {
-            $table->id('SaleStatusID');
-            $table->id('Description', 100);
-            $table->timestamps();
-        });
+        if(!Schema::hasTable('salestatus')){
+            Schema::create('salestatus', function (Blueprint $table) {
+                $table->id('SaleStatusID');
+                $table->string('Description', 100);
+                $table->timestamps();
+            });
+        }
     }
 
     /**
@@ -27,6 +29,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sale_statuses');
+        Schema::dropIfExists('salestatus');
     }
 };

@@ -13,18 +13,20 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('sale', function (Blueprint $table) {
-            $table->id('SaleID');
-            $table->decimal('Total');
+        if(!Schema::hasTable('sale')){
+            Schema::create('sale', function (Blueprint $table) {
+                $table->id('SaleID');
+                $table->decimal('Total');
 
-            $table->unsignedInteger('PaymentTypeIDFK');
-            $table->unsignedInteger('ClientIDFK');
+                $table->unsignedBigInteger('PaymentTypeIDFK');
+                $table->unsignedBigInteger('ClientIDFK');
 
-            $table->foreign('PaymentTypeIDFK')->on('PaymentType')->references('PaymentTypeID');
-            $table->foreign('ClientIDFK')->on('Client')->references('ClientID');
+                //$table->foreign('PaymentTypeIDFK')->on('PaymentType')->references('PaymentTypeID');
+                $table->foreign('ClientIDFK')->on('Client')->references('ClientID');
 
-            $table->timestamps();
-        });
+                $table->timestamps();
+            });
+        }
     }
 
     /**
@@ -34,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sales');
+        Schema::dropIfExists('sale');
     }
 };

@@ -13,18 +13,20 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('saleproduct', function (Blueprint $table) {
-            $table->id('SaleProductID');
-            $table->unsignedInteger('Amount');
-            $table->decimal('PriceUnit');
+        if(!Schema::hasTable('saleproduct')){
+            Schema::create('saleproduct', function (Blueprint $table) {
+                $table->id('SaleProductID');
+                $table->unsignedInteger('Amount');
+                $table->decimal('PriceUnit');
 
-            $table->unsignedInteger('ProductIDFK');
-            $table->unsignedInteger('SaleIDFK');
+                $table->unsignedBigInteger('ProductIDFK');
+                $table->unsignedBigInteger('SaleIDFK');
 
-            $table->foreign('ProductIDFK')->on('Product')->references('ProductID');
-            $table->foreign('SaleIDFK')->on('Sale')->references('SaleID');
-            $table->timestamps();
-        });
+                $table->foreign('ProductIDFK')->on('Product')->references('ProductID');
+                $table->foreign('SaleIDFK')->on('Sale')->references('SaleID');
+                $table->timestamps();
+            });
+        }
     }
 
     /**
@@ -34,6 +36,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('sale_products');
+        Schema::dropIfExists('saleproduct');
     }
 };

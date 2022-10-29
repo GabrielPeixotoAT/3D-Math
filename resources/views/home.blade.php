@@ -52,6 +52,7 @@
         </p>
         <div class="u-expanded-width u-list u-list-1">
             <div class="u-repeater u-repeater-1">
+                @foreach ($mostSell as $product)
                 <div class="u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
                         <img src="../images/modelos_esferas.png" alt=""
@@ -67,6 +68,7 @@
                         </div>
                     </div>
                 </div>
+                @endforeach
                 <div class="u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
                         <img src="../images/modelos_parabuloides.png" alt=""
