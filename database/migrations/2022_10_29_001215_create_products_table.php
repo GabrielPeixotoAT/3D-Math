@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('Name', 100);
             $table->decimal('Price',24);
             $table->string('Description',900);
+            $table->unsignedBigInteger('NumberOfSales');
 
             $table->unsignedBigInteger('CategoryIDFK');
 
