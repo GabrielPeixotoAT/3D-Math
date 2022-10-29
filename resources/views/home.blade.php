@@ -55,51 +55,20 @@
                 @foreach ($mostSell as $product)
                 <div class="u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                        <img src="../images/modelos_esferas.png" alt=""
+                        <img src="{{$product['FileAddress']}}" alt=""
                             class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700"
                             data-image-height="700">
                         <div class="u-align-center u-container-style u-group u-white u-group-1">
                             <div class="u-container-layout u-valign-top u-container-layout-2">
                                 <h6 class="u-text u-text-default u-text-3">A partir de</h6>
-                                <h3 class="u-text u-text-4">R$ 60</h3>
-                                <h6 class="u-text u-text-default u-text-5">Esfereas<br>
+                                <h3 class="u-text u-text-4">R$ {{$product['Price']}}</h3>
+                                <h6 class="u-text u-text-default u-text-5">{{$product['Name']}}<br>
                                 </h6>
                             </div>
                         </div>
                     </div>
                 </div>
                 @endforeach
-                <div class="u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                        <img src="../images/modelos_parabuloides.png" alt=""
-                            class="u-expanded-width u-image u-image-default u-image-2" data-image-width="700"
-                            data-image-height="700">
-                        <div class="u-align-center u-container-style u-group u-video-cover u-white u-group-2">
-                            <div class="u-container-layout u-valign-top u-container-layout-4">
-                                <h6 class="u-text u-text-default u-text-6"> A partir de<br>
-                                </h6>
-                                <h3 class="u-text u-text-default u-text-7">R$ 120</h3>
-                                <h6 class="u-text u-text-default u-text-8">Parabolóides<br>
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="u-container-style u-list-item u-repeater-item">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
-                        <img src="../images/modelos_trapesoides.png" alt=""
-                            class="u-expanded-width u-image u-image-default u-image-3" data-image-width="700"
-                            data-image-height="700">
-                        <div class="u-align-center u-container-style u-group u-video-cover u-white u-group-3">
-                            <div class="u-container-layout u-valign-top u-container-layout-6">
-                                <h6 class="u-text u-text-default u-text-9"> A partir de<br>
-                                </h6>
-                                <h3 class="u-text u-text-default u-text-10">R$ 50</h3>
-                                <h6 class="u-text u-text-default u-text-11">Trapezoides</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <a href=""

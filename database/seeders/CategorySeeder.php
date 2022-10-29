@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class CategorySeeder extends Seeder
 {
@@ -14,6 +15,23 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('Category')->insert(array(
+            array(
+                'Description' => 'Sólidos regulares',
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Description' => 'Sólidos irregulares',
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Description' => 'Polígonos complexos',
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
+            )
+            
+        ));
     }
 }

@@ -22,7 +22,7 @@ class HomeController extends Controller
 
     public function show()
     {
-        $mostSellProducts = $searchProductsService->getMostSell();
+        $mostSellProducts = $this->searchProductsService->getMostSell();
 
         return view('home',
             ['mostSell' => $mostSellProducts]

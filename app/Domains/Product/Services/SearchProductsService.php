@@ -23,6 +23,13 @@ class SearchProductsService
 
     public function getMostSell()
     {
-        return Product::orderBy('NumberOfSales')->limit(3)->get();
+        return Product::orderByDesc('NumberOfSales')
+            ->join('Archive', 'ProductIDFK', 'Product.ProductID')
+            ->select(
+                'Archive.Address as FileAddress',
+                'Product.Name as Name',
+                'Product.Price as Price',
+                'Product.Description as Description'
+            )->get();
     }
 }
