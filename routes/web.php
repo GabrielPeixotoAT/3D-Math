@@ -20,4 +20,8 @@ Route::get('/', function () {
 
 Route::get('/test', [HomeController::class, 'test']);
 
-Route::get('/home', [HomeController::class, 'show']);
+
+Route::controller(HomeController::class)->group(function () {
+
+    Route::get('/home', 'show')->name('home');
+});
