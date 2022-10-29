@@ -54,6 +54,7 @@
             <div class="u-repeater u-repeater-1">
                 @foreach ($mostSell as $product)
                 <div class="u-container-style u-list-item u-repeater-item">
+                  <a href="/product/{{ $product['ProductID'] }}">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
                         <img src="{{$product['FileAddress']}}" alt=""
                             class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700"
@@ -67,11 +68,12 @@
                             </div>
                         </div>
                     </div>
+                  </a>
                 </div>
                 @endforeach
             </div>
         </div>
-        <a href=""
+        <a href="/catalog"
             class="u-active-black u-border-2 u-border-black u-btn u-button-style u-hover-black u-text-black u-text-hover-white u-white u-btn-1"
             target="_blank">Ver todos os modelos</a>
     </div>

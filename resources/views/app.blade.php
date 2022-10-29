@@ -32,7 +32,7 @@
 <body class="u-body u-xl-mode" data-lang="pt">
     <header class="u-align-center-xs u-border-1 u-border-grey-25 u-clearfix u-header u-header" id="sec-6d0b">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="#" class="u-image u-logo u-image-1" data-image-width="225" data-image-height="76">
+            <a href="/home" class="u-image u-logo u-image-1" data-image-width="225" data-image-height="76">
                 <img src="{{ asset( 'images/3DMathtext.png' ) }}" class="u-logo-image u-logo-image-1">
             </a>
             <form action="#" method="get" class="u-border-1 u-border-grey-15 u-search u-search-right u-search-1">

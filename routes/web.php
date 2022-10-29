@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\CatalogController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -24,4 +26,9 @@ Route::get('/test', [HomeController::class, 'test']);
 Route::controller(HomeController::class)->group(function () {
 
     Route::get('/home', 'show')->name('home');
+});
+
+Route::controller(CatalogController::class)->group(function () {
+
+    Route::get('/catalog', 'show')->name('catalog');
 });
