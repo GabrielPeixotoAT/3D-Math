@@ -22,4 +22,13 @@ class CatalogController extends Controller
             ['products' => $products]
         );
     }
+
+    public function showProduct($id)
+    {
+        $product = $this->searchProductsService->getByID($id);
+
+        return view('product-details',
+            ['product' => $product]
+        );
+    }
 }

@@ -13,36 +13,34 @@
             MAIS</a>
     </div>
 </section>
+@if(!isset($auth))
 <section class="u-align-center u-clearfix u-section-2" id="sec-1996">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Cadastre-se</h2>
         <div class="u-form u-form-1">
-            <form action="https://forms.nicepagesrv.com/Form/Process"
+            <form action=""
                 class="u-clearfix u-form-horizontal u-form-spacing-15 u-inner-form" style="padding: 15px;"
                 source="email">
-                <div class="u-form-group u-form-name u-label-none">
-                    <label for="name-ef64" class="u-label">Name</label>
-                    <input type="text" placeholder="Nome" id="name-ef64" name="name"
-                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
-                </div>
                 <div class="u-form-email u-form-group u-label-none">
                     <label for="email-ef64" class="u-label">Email</label>
                     <input type="email" placeholder="Email" id="email-ef64" name="email"
-                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
+                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required>
+                </div>
+                <div class="u-form-group u-form-name u-label-none">
+                    <label for="name-ef64" class="u-label">Senha</label>
+                    <input type="password" placeholder="Senha" id="name-ef64" name="Password"
+                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required>
                 </div>
                 <div class="u-form-group u-form-submit">
-                    <a href="#" class="u-btn u-btn-submit u-button-style">Entrar</a>
-                    <input type="submit" value="submit" class="u-form-control-hidden">
+                    <button type="submit" class="u-btn u-btn-submit u-button-style">Entrar</button>
                 </div>
-                <div class="u-form-send-message u-form-send-success">#FormSendSuccess</div>
-                <div class="u-form-send-error u-form-send-message">#FormSendError</div>
                 <input type="hidden" value="" name="recaptchaResponse">
                 <input type="hidden" name="formServices" value="cc160b87be88e86df69fb5c0fa0b0798">
             </form>
         </div>
     </div>
 </section>
-
+@endif
 <section class="u-align-center u-clearfix u-section-4" id="carousel_1ba4">
     <div
         class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
@@ -54,7 +52,8 @@
             <div class="u-repeater u-repeater-1">
                 @foreach ($mostSell as $product)
                 <div class="u-container-style u-list-item u-repeater-item">
-                  <a href="/product/{{ $product['ProductID'] }}">
+                  <!--<a href="/product/{{ $product['ProductID'] }}">-->
+                  <a href="{{ route('product', $product->ProductID) }}">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
                         <img src="{{$product['FileAddress']}}" alt=""
                             class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700"
@@ -75,9 +74,10 @@
         </div>
         <a href="/catalog"
             class="u-active-black u-border-2 u-border-black u-btn u-button-style u-hover-black u-text-black u-text-hover-white u-white u-btn-1"
-            target="_blank">Ver todos os modelos</a>
+            target="">Ver todos os modelos</a>
     </div>
 </section>
+
 <section class="u-clearfix u-grey-5 u-section-5" id="sec-02c1">
     <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">

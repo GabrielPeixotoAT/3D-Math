@@ -8,7 +8,17 @@ class SearchProductsService
 {
     public function getByID(int $id)
     {
-        return Product::find($id);
+        return Product::where('ProductID', $id)
+        ->join('Archive', 'ProductIDFK', 'Product.ProductID')
+        ->join('Category', 'CategoryID', 'Product.CategoryIDFK')
+        ->select(
+            'Archive.Address as FileAddress',
+            'Product.ProductID as ProductID',
+            'Product.Name as Name',
+            'Product.Price as Price',
+            'Product.Description as Description',
+            'Category.Description as Category'
+        )->first();
     }
 
     public function getAll()

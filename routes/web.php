@@ -31,4 +31,5 @@ Route::controller(HomeController::class)->group(function () {
 Route::controller(CatalogController::class)->group(function () {
 
     Route::get('/catalog', 'show')->name('catalog');
+    Route::get('/product/{ID}', 'showProduct')->name('product');
 });
