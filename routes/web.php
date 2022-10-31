@@ -37,4 +37,5 @@ Route::controller(CatalogController::class)->group(function () {
 
 Route::controller(ClientController::class)->group(function () {
     Route::get('/register/{log}', 'index')->name('register');
+    Route::post('/register', 'save')->name('saveuser');
 });

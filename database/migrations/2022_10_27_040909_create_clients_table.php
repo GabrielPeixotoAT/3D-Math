@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id('ClientID');
             $table->string('Name');
             $table->string('Email'); 
+            $table->string('Cpf');
             $table->string('Password');
             $table->unsignedBigInteger('OccupationIDFK');
             $table->timestamps();

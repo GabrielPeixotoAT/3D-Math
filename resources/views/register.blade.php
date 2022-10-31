@@ -5,9 +5,10 @@
     <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Cadastre-se</h2>
         <div class="u-form u-form-1">
-            <form action=""
+            <form method="POST" action="{{ route('saveuser') }}"
                 class="u-clearfix u-form-vertical u-form-spacing-15 u-inner-form" style="padding: 15px;"
                 source="email">
+                @csrf
                 <div class="u-form-email u-form-group u-label-none">
                     <label for="nome-ef64" class="u-label">Nome</label>
                     <input type="text" placeholder="Nome" id="nome-ef64" name="name"
@@ -30,7 +31,7 @@
                 </div>
                 <div class="u-form-group u-form-password u-label-none">
                     <label for="name-ef64" class="u-label">Senha Novamente</label>
-                    <input type="password" placeholder="Senha Novamente" id="passag-ef64" name="passwordAgain"
+                    <input type="password" placeholder="Senha Novamente" id="passag-ef64" name="passwordagain"
                         class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required>
                 </div>
                 <div class="u-form-group u-form-password u-label-none">
