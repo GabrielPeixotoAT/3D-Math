@@ -16525,6 +16525,16 @@ html {
   font-size: 1rem;
   line-height: 1.6;
 }
+
+section#carousel_1ba5{
+  /*background-color: #c0c0c0 !important;*/
+  background-color: #e7e7e7 !important;
+}
+section#carousel_1ba4{
+  /*background-color: #c0c0c0 !important;*/
+  background-color: #e7e7e7 !important;
+}
+
 .u-body h1,
 .u-body h2,
 .u-body h3,

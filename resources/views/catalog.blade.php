@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="u-align-center u-clearfix u-section-4" id="carousel_1ba4">
+<section class="u-align-center u-clearfix u-section-4" id="carousel_1ba5">
   <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
     <h2 class="u-text u-text-1">Catálogo</h2>
     <p class="u-text u-text-2">Bem-vindo ao nosso catálogo.&nbsp;<br>Você pode navegar pelos nossos modelos ou pesquisar por um modelo específico.
