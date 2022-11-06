@@ -33,6 +33,18 @@ class ArchiveSeeder extends Seeder
                 'ProductIDFK' => 3,
                 'created_at' => date('Y/m/d H:i:s'),
                 'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Address' => '../images/modelos_piramides.png',
+                'ProductIDFK' => 4,
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Address' => '../images/modelos_cubos.png',
+                'ProductIDFK' => 5,
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
             )
             
         ));

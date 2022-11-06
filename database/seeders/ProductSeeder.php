@@ -42,6 +42,24 @@ class ProductSeeder extends Seeder
                 'CategoryIDFK' => 1,
                 'created_at' => date('Y/m/d H:i:s'),
                 'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Name' => 'Pirâmides',
+                'Price' => 60,
+                'Description' => 'Pirâmides transparentes para estudo. Feitas com PET.',
+                'NumberOfSales' => 9,
+                'CategoryIDFK' => 1,
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Name' => 'Cubos',
+                'Price' => 60,
+                'Description' => 'Cubos transparentes para estudo. Feitos com PET.',
+                'NumberOfSales' => 9,
+                'CategoryIDFK' => 1,
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
             )
             
         ));

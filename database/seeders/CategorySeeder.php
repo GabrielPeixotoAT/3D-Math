@@ -30,6 +30,11 @@ class CategorySeeder extends Seeder
                 'Description' => 'Polígonos complexos',
                 'created_at' => date('Y/m/d H:i:s'),
                 'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Description' => 'Polígonos transparentes',
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
             )
             
         ));
