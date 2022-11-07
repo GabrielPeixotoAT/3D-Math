@@ -30,6 +30,11 @@ class OccupationSeeder extends Seeder
                 'Description' => 'Diretor',
                 'created_at' => date('Y/m/d H:i:s'),
                 'updated_at' => date('Y/m/d H:i:s')
+            ),
+            array(
+                'Description' => 'Não Informado',
+                'created_at' => date('Y/m/d H:i:s'),
+                'updated_at' => date('Y/m/d H:i:s')
             )
             
         ));
