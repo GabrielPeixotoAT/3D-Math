@@ -14,7 +14,7 @@ class CreateClientAction
                 'Email' => $data['email'],
                 'Cpf' => $data['cpf'],
                 'Password' => $data['password'],
-                'OccupationIDFK' => 1
+                'OccupationIDFK' => 4
             ]
         );
     }
