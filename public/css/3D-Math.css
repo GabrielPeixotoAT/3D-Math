@@ -1,4 +1,17 @@
- .u-section-1 {
+.parallax-box {
+	height: 100% !important;
+	opacity: 0.9 !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-attachment: fixed !important;
+}
+
+.parallax-one {
+  background-image: url(../images/3D-Printers-for-Mathematics-Education-dark.png) !important;
+}
+
+.u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/3D-Printers-for-Mathematics-Education.png");
   background-position: 50% 50%;
 }

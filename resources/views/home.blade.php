@@ -1,8 +1,8 @@
 @extends('app')
 
 @section('content')
-<section class="u-align-center u-clearfix u-image u-shading u-section-1"
-    style="background-image: url(../images/3D-Printers-for-Mathematics-Education-dark.png);" src="" id="sec-7982"
+<section class="u-align-center u-clearfix u-image u-shading u-section-1 parallax-box parallax-one"
+    src="" id="sec-7982"
     data-image-width="1000" data-image-height="750">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h1 class="u-text u-text-default u-title u-text-1">3D MATH</h1>
