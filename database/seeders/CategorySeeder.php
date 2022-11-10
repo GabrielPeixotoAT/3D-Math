@@ -15,7 +15,7 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Category')->insert(array(
+        DB::table('category')->insert(array(
             array(
                 'Description' => 'Sólidos regulares',
                 'created_at' => date('Y/m/d H:i:s'),

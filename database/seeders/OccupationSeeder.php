@@ -15,7 +15,7 @@ class OccupationSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Occupation')->insert(array(
+        DB::table('occupation')->insert(array(
             array(
                 'Description' => 'Professor',
                 'created_at' => date('Y/m/d H:i:s'),

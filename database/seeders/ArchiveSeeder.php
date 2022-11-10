@@ -15,7 +15,7 @@ class ArchiveSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Archive')->insert(array(
+        DB::table('archive')->insert(array(
             array(
                 'Address' => '../images/modelos_esferas.png',
                 'ProductIDFK' => 1,

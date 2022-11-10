@@ -9,28 +9,28 @@ class SearchProductsService
     public function getByID(int $id)
     {
         return Product::where('ProductID', $id)
-        ->join('Archive', 'ProductIDFK', 'Product.ProductID')
-        ->join('Category', 'CategoryID', 'Product.CategoryIDFK')
+        ->join('archive', 'ProductIDFK', 'product.ProductID')
+        ->join('category', 'CategoryID', 'product.CategoryIDFK')
         ->select(
-            'Archive.Address as FileAddress',
-            'Product.ProductID as ProductID',
-            'Product.Name as Name',
-            'Product.Price as Price',
-            'Product.Description as Description',
-            'Category.Description as Category'
+            'archive.Address as FileAddress',
+            'product.ProductID as ProductID',
+            'product.Name as Name',
+            'product.Price as Price',
+            'product.Description as Description',
+            'category.Description as Category'
         )->first();
     }
 
     public function getAll()
     {
         return Product::orderBy('Name')
-            ->join('Archive', 'ProductIDFK', 'Product.ProductID')
+            ->join('archive', 'ProductIDFK', 'product.ProductID')
             ->select(
-                'Archive.Address as FileAddress',
-                'Product.ProductID as ProductID',
-                'Product.Name as Name',
-                'Product.Price as Price',
-                'Product.Description as Description'
+                'archive.Address as FileAddress',
+                'product.ProductID as ProductID',
+                'product.Name as Name',
+                'product.Price as Price',
+                'product.Description as Description'
             )->get();;
     }
 
@@ -42,13 +42,13 @@ class SearchProductsService
     public function getMostSell()
     {
         return Product::orderByDesc('NumberOfSales')
-            ->join('Archive', 'ProductIDFK', 'Product.ProductID')
+            ->join('archive', 'ProductIDFK', 'product.ProductID')
             ->select(
-                'Archive.Address as FileAddress',
-                'Product.ProductID as ProductID',
-                'Product.Name as Name',
-                'Product.Price as Price',
-                'Product.Description as Description'
+                'archive.Address as FileAddress',
+                'product.ProductID as ProductID',
+                'product.Name as Name',
+                'product.Price as Price',
+                'product.Description as Description'
             )->limit(3)->get();
     }
 }

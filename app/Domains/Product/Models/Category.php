@@ -9,7 +9,7 @@ class Category extends Model
 {
     use HasFactory;
 
-    public $table = "Categoty";
+    public $table = "categoty";
     protected $primaryKey = "CategotyID";
     protected $guarded = ['CategotyID'];
 }

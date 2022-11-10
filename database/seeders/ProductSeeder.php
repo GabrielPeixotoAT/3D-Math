@@ -15,7 +15,7 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('Product')->insert(array(
+        DB::table('product')->insert(array(
             array(
                 'Name' => 'Esferas',
                 'Price' => 50,

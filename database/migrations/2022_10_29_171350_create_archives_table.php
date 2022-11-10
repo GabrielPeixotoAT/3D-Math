@@ -13,16 +13,18 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('archive', function (Blueprint $table) {
-            $table->id('ArchiveID');
-            $table->string('Address');
+        if(!Schema::hasTable('archive')){
+            Schema::create('archive', function (Blueprint $table) {
+                $table->id('ArchiveID');
+                $table->string('Address');
 
-            $table->unsignedBigInteger('ProductIDFK');
+                $table->unsignedBigInteger('ProductIDFK');
 
-            $table->foreign('ProductIDFK')->on('Product')->references('ProductID');
+                $table->foreign('ProductIDFK')->on('Product')->references('ProductID');
 
-            $table->timestamps();
-        });
+                $table->timestamps();
+            });
+        }
     }
 
     /**

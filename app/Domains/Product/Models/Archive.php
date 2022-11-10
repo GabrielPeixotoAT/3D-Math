@@ -9,7 +9,7 @@ class Archive extends Model
 {
     use HasFactory;
 
-    public $table = "Archive";
+    public $table = "archive";
     protected $primaryKey = "ArchiveID";
     protected $guarded = ['ArchiveID'];
 }
