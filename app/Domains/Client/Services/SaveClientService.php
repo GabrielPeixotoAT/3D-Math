@@ -21,7 +21,7 @@ class SaveClientService
         $validator = Validator::make($request->all(), [
             'name' => 'required',
             'email' => 'required|e-mail',
-            'cpf' => 'required|numeric|unique:Client,cpf',
+            'cpf' => 'required|numeric|unique:client,cpf',
             'password' => 'required',
             'passwordagain' => 'required|same:password'
         ]);
@@ -36,7 +36,7 @@ class SaveClientService
         $validatedData = $request->validate([
             'name' => 'required',
             'email' => 'required|e-mail',
-            'cpf' => 'required|numeric|unique:Client,cpf',
+            'cpf' => 'required|numeric|unique:client,cpf',
             'password' => 'required',
             'passwordagain' => 'required|same:password'
         ]);
