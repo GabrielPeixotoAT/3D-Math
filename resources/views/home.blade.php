@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1"
-                        src="" data-image-width="720" data-image-height="405">
+                        src="" style="background-image: url({{ asset( 'images/1a5a7fb35c074f928ca403a6d3b23b05.jpeg' ) }});" data-image-width="720" data-image-height="405">
                         <div class="u-container-layout u-valign-middle u-container-layout-2" src=""></div>
                     </div>
                 </div>
