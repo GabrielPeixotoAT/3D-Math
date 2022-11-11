@@ -9,7 +9,7 @@
         <p class="u-large-text u-text u-text-default u-text-variant u-text-2">O lugar perfeito para encontrar modelos
             matemáticos de alta qualidade.</p>
         <a href="#"
-            class="u-border-2 u-border-palette-2-base u-btn u-button-style u-hover-palette-2-base u-none u-text-hover-white u-text-palette-2-base u-btn-1">SAIBA
+            class="u-border-2 u-border-palette-2-base u-btn u-button-style u-hover-palette-2-base u-none u-text-white u-text-palette-2-base u-btn-1">SAIBA
             MAIS</a>
     </div>
 </section>
@@ -20,7 +20,7 @@
         <div class="u-form u-form-1">
           <div class="u-form-group u-form-submit u-align-center">
               <!--<button type="submit" class="u-btn u-btn-submit u-button-style">Cadastrar</button>-->
-              <a href=" {{route('register', [0]) }}" class="u-btn u-btn-submit u-button-style">Cadastre-se</a>
+              <a href=" {{route('register', [0]) }}" class="u-btn u-btn-submit u-button-style">CADASTRE-SE</a>
           </div>
           <div class="u-form-group u-form-submit u-align-center">
               <a href=" {{route('register', [1]) }}" class="">Já tenho conta.</a>
@@ -42,10 +42,9 @@
             <div class="u-repeater u-repeater-1">
                 @foreach ($mostSell as $product)
                 <div class="u-container-style u-list-item u-repeater-item">
-                  <!--<a href="/product/{{ $product['ProductID'] }}">-->
                   <a href="{{ route('product', $product->ProductID) }}">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                        <img src="{{$product['FileAddress']}}" alt=""
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1 product-item">
+                        <img src="{{$product['FileAddress']}}" alt="Imagem de {{$product['Name']}}"
                             class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700"
                             data-image-height="700">
                         <div class="u-align-center u-container-style u-group u-white u-group-1">
@@ -63,7 +62,7 @@
             </div>
         </div>
         <a href="/catalog"
-            class="u-active-black u-border-2 u-border-black u-btn u-button-style u-hover-black u-text-black u-text-hover-white u-white u-btn-1"
+            class="u-active-black u-border-2 u-border-black u-btn u-button-style u-hover-black u-text-black u-text-hover-white u-gray u-btn-1"
             target="">Ver todos os modelos</a>
     </div>
 </section>
