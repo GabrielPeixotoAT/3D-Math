@@ -6,6 +6,7 @@ use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\ClientController;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,8 +22,6 @@ Route::get('/', function () {
     return redirect('/home');
 });
 
-Route::get('/test', [HomeController::class, 'test']);
-
 
 Route::controller(HomeController::class)->group(function () {
 
@@ -35,7 +34,8 @@ Route::controller(CatalogController::class)->group(function () {
     Route::get('/product/{ID}', 'showProduct')->name('product');
 });
 
-Route::controller(ClientController::class)->group(function () {
-    Route::get('/register/{log}', 'index')->name('register');
-    Route::post('/register', 'save')->name('saveuser');
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+require __DIR__.'/auth.php';
