@@ -202,9 +202,8 @@
                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
                         <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="256"
                             data-image-height="256"></div>
-                        <p class="u-text u-text-9">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de
-                            cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
-                        <h5 class="u-text u-text-10">Ricardo Teixeira</h5>
+                        <p class="u-text u-text-9">"bão, pó comprar."</p>
+                        <h5 class="u-text u-text-7">Ramost</h5>
                         <h6 class="u-text u-text-11">Professor</h6>
                     </div>
                 </div>
