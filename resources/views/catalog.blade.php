@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('subtitle', ' - Catálogo')
+
 @section('content')
 
 <section class="u-align-center u-clearfix u-section-4" id="carousel_1ba5">

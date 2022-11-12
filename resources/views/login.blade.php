@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('subtitle', ' - Login')
+
 @section('content')
 <section class="u-align-center u-clearfix u-section-2" id="sec-1996">
     <div class="u-clearfix u-sheet u-sheet-1">

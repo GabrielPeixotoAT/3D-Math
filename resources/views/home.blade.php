@@ -1,5 +1,7 @@
 @extends('app')
 
+@section('subtitle', ' - Home')
+
 @section('content')
 <section class="u-align-center u-clearfix u-image u-shading u-section-1 parallax-box parallax-one"
     src="" id="sec-7982"
@@ -19,7 +21,6 @@
         <h2 class="u-text u-text-default u-text-1">Novo Usuário?</h2>
         <div class="u-form u-form-1">
           <div class="u-form-group u-form-submit u-align-center">
-              <!--<button type="submit" class="u-btn u-btn-submit u-button-style">Cadastrar</button>-->
               <a href=" {{route('register', [0]) }}" class="u-btn u-btn-submit u-button-style">CADASTRE-SE</a>
           </div>
           <div class="u-form-group u-form-submit u-align-center">
@@ -92,7 +93,7 @@
         </div>
     </div>
 </section>
-<!--
+{{-- 
     <section class="u-align-center u-clearfix u-section-6" id="sec-db75">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">Produto Mais Vendido</h1>
@@ -168,7 +169,8 @@
           </div>
         </div>
       </div>
-    </section>-->
+    </section>
+     --}}
 <section class="u-align-center u-clearfix u-section-8" id="sec-1802">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">O que os nossos cliente dizem?</h2>
