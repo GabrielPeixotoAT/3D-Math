@@ -22,14 +22,11 @@ Route::get('/', function () {
     return redirect('/home');
 });
 
-
 Route::controller(HomeController::class)->group(function () {
-
     Route::get('/home', 'show')->name('home');
 });
 
 Route::controller(CatalogController::class)->group(function () {
-
     Route::get('/catalog', 'show')->name('catalog');
     Route::get('/product/{ID}', 'showProduct')->name('product');
 });
