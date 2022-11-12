@@ -69,7 +69,7 @@
 
               @guest
               <li class="nav-item">
-                <a class="nav-link" href="">ENTRAR</a>
+                <a class="nav-link" href="">Entrar</a>
               </li>
               <li class="nav-item">
                 <div class="nav-item" style="margin-left: 90px;">
