@@ -15,7 +15,7 @@
     <meta name="generator" content="Nicepage 4.20.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-
+    <link rel="stylesheet" href="{{ asset( 'css/bootstrap.min.css' ) }}">
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -69,88 +69,29 @@
                 </button>
                 <input class="u-search-input" type="search" name="search" value="" placeholder="Pesquisar">
             </form>
-            <nav class="u-align-left u-font-size-14 u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1">
-                <div class="menu-collapse">
-                    <a class="u-button-style u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
-                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style="">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7b92"></use>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-                            id="svg-7b92" x="0px" y="0px" viewBox="0 0 302 302"
-                            style="enable-background:new 0 0 302 302;" xml:space="preserve" class="u-svg-content">
-                            <g>
-                                <rect y="36" width="302" height="30"></rect>
-                                <rect y="236" width="302" height="30"></rect>
-                                <rect y="136" width="302" height="30"></rect>
-                            </g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                            <g></g>
-                        </svg>
-                    </a>
-                </div>
-                <div class="u-custom-menu u-nav-container">
-                    <ul class="u-nav u-unstyled u-nav-1">
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                                href="" style="padding: 10px 20px;">3D Math</a>
-                            <div class="u-nav-popup">
-                                <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-2">
-                                    <li class="u-nav-item"><a class="u-button-style u-nav-link u-white">Catálogo</a>
-                                    </li>
-                                    <li class="u-nav-item"><a class="u-button-style u-nav-link u-white">Categorias</a>
-                                    </li>
-                                    <li class="u-nav-item"><a class="u-button-style u-nav-link u-white">Carrinho</a>
-                                    </li>
-                                    <li class="u-nav-item"><a class="u-button-style u-nav-link u-white">Minha Conta</a>
-                                    </li>
-                                    <li class="u-nav-item"><a class="u-button-style u-nav-link u-white">Sobre</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div
-                        class="u-align-center u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-3">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="">3D Math</a>
-                                    <div class="u-nav-popup">
-                                        <ul class="u-h-spacing-20 u-nav u-unstyled u-v-spacing-10 u-nav-4">
-                                            <li class="u-nav-item"><a class="u-button-style u-nav-link">Catálogo</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-nav-link">Categorias</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-nav-link">Carrinho</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-nav-link">Minha Conta</a>
-                                            </li>
-                                            <li class="u-nav-item"><a class="u-button-style u-nav-link">Sobre</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-                </div>
-            </nav>
+            <button class="navbar-toggler" data-toggle="collapse" 
+        data-target="#navegacao3">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navegacao3">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="">Serviços</a>
+            <div class="dropdown-menu">
+              <a href="" class="dropdown-item">Service One</a>
+              <a href="" class="dropdown-item">Service Two</a>
+              <a href="" class="dropdown-item">Service Three</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Sobre</a>
+          </li>
+        </ul>
+      </div>
         </div>
     </header>
 
