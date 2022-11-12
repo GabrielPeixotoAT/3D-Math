@@ -15,23 +15,25 @@
             MAIS</a>
     </div>
 </section>
-@if(!isset($auth))
+
+@guest
 <section class="u-align-center u-clearfix u-section-2" id="sec-1996">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Novo Usuário?</h2>
         <div class="u-form u-form-1">
           <div class="u-form-group u-form-submit u-align-center">
-              <a href=" {{route('register', [0]) }}" class="u-btn u-btn-submit u-button-style">CADASTRE-SE</a>
+              <a href=" {{route('register') }}" class="u-btn u-btn-submit u-button-style">CADASTRE-SE</a>
           </div>
           <div class="u-form-group u-form-submit u-align-center">
-              <a href=" {{route('register', [1]) }}" class="">Já tenho conta.</a>
+              <a href=" {{route('login') }}" class="">Já tenho conta.</a>
           </div>
           <input type="hidden" value="" name="recaptchaResponse">
           <input type="hidden" name="formServices" value="cc160b87be88e86df69fb5c0fa0b0798">
         </div>
     </div>
 </section>
-@endif
+@endguest
+
 <section class="u-align-center u-clearfix u-section-4" id="carousel_1ba4">
     <div
         class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
