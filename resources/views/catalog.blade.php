@@ -13,7 +13,7 @@
       <div class="u-repeater u-repeater-1">
           @foreach ($products as $product)
           <div class="u-container-style u-list-item u-repeater-item" style="margin-bottom: 30px;">
-            <a href="{{ route('product', $product->ProductID) }}" class="product-item">
+            <a class="clear-link" href="{{ route('product', $product->ProductID) }}" class="product-item">
               <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
                 <img src="{{$product['FileAddress']}}" alt=""
                     class="u-expanded-width u-image u-image-default u-image-1" data-image-width="700"

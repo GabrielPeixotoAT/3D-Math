@@ -21,6 +21,14 @@
   z-index: 1020 !important;
 }
 
+.clear-link {
+  text-decoration: none;
+}
+
+.clear-link:hover {
+  text-decoration: none;
+}
+
 .sticky-bottom {
   box-shadow: 5px 0px 0px 0px gray;
   border: none;
