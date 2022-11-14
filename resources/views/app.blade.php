@@ -69,7 +69,7 @@
 
               @guest
               <li class="nav-item">
-                <a class="nav-link" href="">Entrar</a>
+                <a class="nav-link" href="{{route('login') }}">Entrar</a>
               </li>
               <li class="nav-item">
                 <div class="nav-item" style="margin-left: 90px;">

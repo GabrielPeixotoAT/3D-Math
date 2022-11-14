@@ -1,5 +1,13 @@
 <x-guest-layout>
     <x-auth-card>
+        <link rel="stylesheet" href="{{ asset( 'css/nicepage.css' ) }}" media="screen">
+        <link rel="stylesheet" href="{{ asset( 'css/3D-Math.css' ) }}" media="screen">
+        <script class="u-script" type="text/javascript" src="{{ asset( 'js/jquery.js' ) }}" defer=""></script>
+        <script class="u-script" type="text/javascript" src="{{ asset( 'js/nicepage.js' ) }}" defer=""></script>
+        <meta name="generator" content="Nicepage 4.20.3, nicepage.com">
+        <link id="u-theme-google-font" rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+        <link rel="stylesheet" href="{{ asset( 'css/bootstrap.min.css' ) }}">
         <x-slot name="logo">
             <a href="/">
                 <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
@@ -11,7 +19,7 @@
 
             <!-- Name -->
             <div>
-                <x-input-label for="name" :value="__('Name')" />
+                <x-input-label for="name" :value="__('Nome')" />
 
                 <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus />
 
@@ -29,7 +37,7 @@
 
             <!-- Password -->
             <div class="mt-4">
-                <x-input-label for="password" :value="__('Password')" />
+                <x-input-label for="password" :value="__('Senha')" />
 
                 <x-text-input id="password" class="block mt-1 w-full"
                                 type="password"
@@ -41,7 +49,7 @@
 
             <!-- Confirm Password -->
             <div class="mt-4">
-                <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+                <x-input-label for="password_confirmation" :value="__('Confirmar senha')" />
 
                 <x-text-input id="password_confirmation" class="block mt-1 w-full"
                                 type="password"
@@ -52,11 +60,11 @@
 
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
-                    {{ __('Already registered?') }}
+                    {{ __('Já é cadastrado?') }}
                 </a>
 
                 <x-primary-button class="ml-4">
-                    {{ __('Register') }}
+                    {{ __('Cadastrar') }}
                 </x-primary-button>
             </div>
         </form>
