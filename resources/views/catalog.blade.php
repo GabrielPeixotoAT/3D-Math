@@ -43,12 +43,11 @@
                     <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1"
                         src="">
                         <div class="u-container-layout u-valign-middle u-container-layout-1">
-                            <h2 class="u-align-center u-text u-text-default u-text-1">Pesquise por Categoria</h2>
-                            <p class="u-align-center u-text u-text-2">Descubra nossos produtos navegando por categorias.
+                            <h2 class="u-align-center u-text u-text-default u-text-1">Não encontrou o que procurava?</h2>
+                            <p class="u-align-center u-text u-text-2">Caso você tenha uma sujestão ou uma pedido especial que queira passar para nossa equipe, entre em contato conosco.
                             </p>
                             <a href="#"
-                                class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Ver
-                                Modelos</a>
+                                class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Entrar em contato</a>
                         </div>
                     </div>
                     <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1"
