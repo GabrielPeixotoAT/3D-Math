@@ -7,7 +7,9 @@
     <meta name="keywords" content="Why we should be greening our homes with plants">
     <meta name="description" content="">
     <title>3D Math @yield('subtitle')</title>
-    
+
+    <link rel="icon" href="{{asset('images/tdmathLogoWithBg.png')}}" type="image/png">
+
     <link rel="stylesheet" href="{{ asset( 'css/nicepage.css' ) }}" media="screen">
     <link rel="stylesheet" href="{{ asset( 'css/3D-Math.css' ) }}" media="screen">
     <script class="u-script" type="text/javascript" src="{{ asset( 'js/jquery.js' ) }}" defer=""></script>
