@@ -11,6 +11,7 @@
     </p>
     <div class="u-expanded-width u-list u-list-1">
       <div class="u-repeater u-repeater-1">
+        @if ($products->count() > 0)
           @foreach ($products as $product)
           <div class="u-container-style u-list-item u-repeater-item" style="margin-bottom: 30px;">
             <a class="clear-link" href="{{ route('product', $product->ProductID) }}" class="product-item">
@@ -30,6 +31,22 @@
             </a>
           </div>
           @endforeach
+          @else
+          <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
+            <div class="u-layout" style="">
+                <div class="u-layout-row" style="">
+                    <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1"
+                        src="">
+                        <div class="u-container-layout u-valign-middle u-container-layout-1">
+                            <h2 class="u-align-center u-text u-text-default u-text-1">Não encontramos nenhum produto para mostrar.</h2>
+                            <p class="u-align-center u-text u-text-2">Parece que nosso servidor nã o encontrou nenhum produto, tente recarregar a página para tentar resolver.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        @endif
       </div>
     </div>
   </div>
