@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('subtitle', ' - Home')
 
@@ -95,7 +95,7 @@
         </div>
     </div>
 </section>
-{{-- 
+{{--
     <section class="u-align-center u-clearfix u-section-6" id="sec-db75">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
         <h1 class="u-text u-text-default u-text-1">Produto Mais Vendido</h1>

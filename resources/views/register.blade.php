@@ -1,4 +1,4 @@
-@extends('app')
+@extends('layouts.app')
 
 @section('content')
 <section class="u-align-center u-clearfix u-section-2" id="sec-1996">
