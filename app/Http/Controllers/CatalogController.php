@@ -18,7 +18,7 @@ class CatalogController extends Controller
     {
         $products = $this->searchProductsService->getAll();
 
-        return view('catalog',
+        return view('product.catalog',
             ['products' => $products]
         );
     }
@@ -27,7 +27,7 @@ class CatalogController extends Controller
     {
         $product = $this->searchProductsService->getByID($id);
 
-        return view('product-details',
+        return view('product.product-details',
             ['product' => $product]
         );
     }
