@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('subtitle', ' - Detalhes')
+
 @section('content')
 
 <section class="u-align-center u-clearfix u-section-6" id="sec-db75">
