@@ -1,11 +1,14 @@
 @extends('layouts.app')
 
-@section('subtitle', ' - Administração')
+@section('subtitle', ' - Management')
 
 @section('content')
 
 <section class="u-clearfix u-grey-5 u-section-5" id="sec-02c1">
     <div class="u-clearfix u-sheet u-sheet-1">
+        <br>
+        <h2 class="text-center">Management</h2>
+        <br>
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
             <div class="u-layout" style="">
                 <div class="d-flex justify-content-between">
