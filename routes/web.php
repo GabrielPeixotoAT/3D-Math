@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\ClientController;
+use App\Http\Controllers\AdmController;
 
 
 
@@ -29,6 +30,10 @@ Route::controller(HomeController::class)->group(function () {
 Route::controller(CatalogController::class)->group(function () {
     Route::get('/catalog', 'show')->name('catalog');
     Route::get('/product/{ID}', 'showProduct')->name('product');
+});
+
+Route::controller(AdmController::class)->group(function () {
+    Route::get('/management', 'index')->name('index');
 });
 
 Route::get('/dashboard', function () {

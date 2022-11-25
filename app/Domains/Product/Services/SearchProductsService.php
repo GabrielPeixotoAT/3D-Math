@@ -1,5 +1,5 @@
 <?php
- 
+
 namespace App\Domains\Product\Services;
 
 use App\Domains\Product\Models\Product;
@@ -25,13 +25,15 @@ class SearchProductsService
     {
         return Product::orderBy('Name')
             ->join('archive', 'ProductIDFK', 'product.ProductID')
+            ->join('category', 'CategoryIDFK', 'category.CategoryID')
             ->select(
                 'archive.Address as FileAddress',
                 'product.ProductID as ProductID',
                 'product.Name as Name',
                 'product.Price as Price',
-                'product.Description as Description'
-            )->get();;
+                'product.Description as Description',
+                'category.Description as Category'
+            )->get();
     }
 
     public function getByCategory(int $categoryID)
