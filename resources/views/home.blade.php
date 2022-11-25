@@ -38,7 +38,7 @@
     <div
         class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <h2 class="u-text u-text-1">Modelos em Destaque</h2>
-        <p class="u-text u-text-2">Estes são os modelos mais comprados da plataforma.&nbsp;<br>Veja os comentários de
+        <p class="u-text u-text-2">Estes são os modelos mais vendidos da plataforma.&nbsp;<br>Veja os comentários de
             pessoas que já compraram nossos produtos.
         </p>
         <div class="u-expanded-width u-list u-list-1">
@@ -175,7 +175,7 @@
      --}}
 <section class="u-align-center u-clearfix u-section-8" id="sec-1802">
     <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">O que os nossos cliente dizem?</h2>
+        <h2 class="u-text u-text-default u-text-1">O que os nossos clientes dizem?</h2>
         <p class="u-text u-text-2">Para ver mais comentários <a href=""
                 class="u-active-none u-border-1 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"
                 target="_blank">clique aqui</a>.
