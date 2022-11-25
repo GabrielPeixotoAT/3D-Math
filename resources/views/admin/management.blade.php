@@ -8,7 +8,7 @@
     <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
             <div class="u-layout" style="">
-                <h4>Produtcts</h4>
+                <h3>Produtcts</h3>
                 <table class="table table-striped table-borderless">
                     <thead class="thead-dark">
                         <tr>
