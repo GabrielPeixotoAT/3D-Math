@@ -10,6 +10,8 @@
 
     <link rel="icon" href="{{asset('images/tdmathLogoWithBg.png')}}" type="image/png">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="{{ asset( 'css/nicepage.css' ) }}" media="screen">
     <link rel="stylesheet" href="{{ asset( 'css/3D-Math.css' ) }}" media="screen">
     <script class="u-script" type="text/javascript" src="{{ asset( 'js/jquery.js' ) }}" defer=""></script>
