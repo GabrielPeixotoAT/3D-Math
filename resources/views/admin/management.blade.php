@@ -52,6 +52,7 @@
                     </tbody>
                 </table>
             </div>
+            <br>
             <div class="u-layout" style="">
                 <div class="d-flex justify-content-between">
                     <h3>Clients</h3>
