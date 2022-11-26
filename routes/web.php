@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AboutController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CatalogController;
@@ -33,6 +34,10 @@ Route::controller(CatalogController::class)->group(function () {
 
 Route::controller(AdmController::class)->group(function () {
     Route::get('/management', 'index')->name('index');
+});
+
+Route::controller(AboutController::class)->group(function () {
+    Route::get('/about', 'index')->name('aboutIndex');
 });
 
 Route::middleware('auth')->group(function () {

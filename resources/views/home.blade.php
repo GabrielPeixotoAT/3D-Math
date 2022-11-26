@@ -10,7 +10,7 @@
         <h1 class="u-text u-text-default u-title u-text-1">3D MATH</h1>
         <p class="u-large-text u-text u-text-default u-text-variant u-text-2">O lugar perfeito para encontrar modelos
             matemáticos de alta qualidade.</p>
-        <a href="#"
+        <a href=" {{ route('aboutIndex') }} "
             class="u-border-2 u-border-palette-2-base u-btn u-button-style u-hover-palette-2-base u-none u-text-white u-text-palette-2-base u-btn-1">SAIBA
             MAIS</a>
     </div>
