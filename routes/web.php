@@ -35,8 +35,10 @@ Route::controller(AdmController::class)->group(function () {
     Route::get('/management', 'index')->name('index');
 });
 
-Route::controller(ContactController::class)->group(function () {
-    Route::get('/contact', 'index')->name('contactIndex');
+Route::middleware('auth')->group(function () {
+    Route::controller(ContactController::class)->group(function () {
+        Route::get('/contact', 'index')->name('contactIndex');
+    });
 });
 
 Route::get('/dashboard', function () {
