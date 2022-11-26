@@ -4,7 +4,7 @@
 
 @section('content')
 
-<section class="u-align-center u-clearfix u-section-8" id="sec-1802">
+<section class="u-align-center u-clearfix u-grey-5 u-section-8" id="sec-1802">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Entrar em Contato</h2>
         <p class="u-text u-text-2">Preencha este formulário com os dados requeridos e envie para nossa equipe.
