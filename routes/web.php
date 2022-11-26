@@ -5,8 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CatalogController;
 use App\Http\Controllers\ClientController;
 use App\Http\Controllers\AdmController;
-
-
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,6 +33,10 @@ Route::controller(CatalogController::class)->group(function () {
 
 Route::controller(AdmController::class)->group(function () {
     Route::get('/management', 'index')->name('index');
+});
+
+Route::controller(ContactController::class)->group(function () {
+    Route::get('/contact', 'index')->name('contactIndex');
 });
 
 Route::get('/dashboard', function () {

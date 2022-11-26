@@ -63,7 +63,7 @@
                             <h2 class="u-align-center u-text u-text-default u-text-1">Não encontrou o que procurava?</h2>
                             <p class="u-align-center u-text u-text-2">Caso você tenha uma sujestão ou uma pedido especial que queira passar para nossa equipe, entre em contato conosco.
                             </p>
-                            <a href="#"
+                            <a href="{{ route('contactIndex') }}"
                                 class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Entrar em contato</a>
                         </div>
                     </div>
