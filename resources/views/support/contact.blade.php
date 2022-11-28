@@ -4,8 +4,8 @@
 
 @section('content')
 
-<section class="u-align-center u-clearfix u-grey-5 u-section-8" id="sec-1802">
-    <div class="u-clearfix u-sheet u-sheet-1">
+<section class="u-align-center u-clearfix u-section-4" id="sec-4444">
+    <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">Entrar em Contato</h2>
         <p class="u-text u-text-2">Preencha este formulário com os dados requeridos e envie para nossa equipe.
         </p>
@@ -41,7 +41,7 @@
                         <x-input-label for="category" :value="__('Cateogria da sua requisição')" />
 
                         <select name="category" id="category" class="u-border-1 u-border-grey-30 u-input u-input-rectangle block mt-1 w-full">
-                            <option value="0">Selecione uma categoria</option>
+                            <option value="0" selected disabled>Selecione uma categoria</option>
                             <option value="1">Sugerir modelo 3D</option>
                             <option value="2">Tirar alhguma dúvida</option>
                             <option value="3">Relatar um problema</option>
@@ -57,6 +57,13 @@
 
                         <textarea name="message" id="message" cols="57" rows="5"
                             class="u-border-1 u-border-grey-30 u-input u-input-rectangle"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <x-input-label for="anexo" :value="__('Anexos')" />
+
+                        <input type="file" name="anexo" id="anexo"
+                        class="u-border-1 u-border-grey-30 u-input u-input-rectangle">
                     </div>
 
                     <div class="flex items-center justify-end mt-4">
