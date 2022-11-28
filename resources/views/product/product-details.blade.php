@@ -49,8 +49,8 @@
                     <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1"
                         src="">
                         <div class="u-container-layout u-valign-middle u-container-layout-1">
-                            <h2 class="u-align-center u-text u-text-default u-text-1">Pesquise por Categoria</h2>
-                            <p class="u-align-center u-text u-text-2">Descubra nossos produtos navegando por categorias.
+                            <h2 class="u-align-center u-text u-text-default u-text-1">Veja mais nessa categoria</h2>
+                            <p class="u-align-center u-text u-text-2">Veja outros produtos dessa mesma categoria do produto que você está vendo.
                             </p>
                             <a href="#"
                                 class="u-border-2 u-border-black u-btn u-button-style u-hover-black u-none u-text-black u-text-hover-white u-btn-1">Ver
