@@ -173,6 +173,7 @@
       </div>
     </section>
      --}}
+
 <section class="u-align-center u-clearfix u-section-8" id="sec-1802">
     <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">O que os nossos clientes dizem?</h2>
@@ -184,35 +185,96 @@
             <div class="u-repeater u-repeater-1">
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-                        <div alt="" class="u-image u-image-circle u-image-1" src="" data-image-width="256"
+                        <div alt="" class="u-image u-image-circle u-image-m" src="" data-image-width="256"
                             data-image-height="256"></div>
-                        <p class="u-text u-text-3">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de
-                            cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
-                        <h5 class="u-text u-text-4">Manuela Ferreira</h5>
-                        <h6 class="u-text u-text-5">Professora</h6>
+                        <p class="u-text u-text-3">"A priori, os modelos 3D mostraram ter uma qualidade altíssima."</p>
+                        <h5 class="u-text u-text-4">Celso Eduardo</h5>
+                        <h6 class="u-text u-text-5">Professor</h6>
                     </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-                        <div alt="" class="u-image u-image-circle u-image-2" src="" data-image-width="256"
+                        <div alt="" class="u-image u-image-circle u-image-f" src="" data-image-width="256"
                             data-image-height="256"></div>
                         <p class="u-text u-text-6">"Modelos exelentes, qualidade incrível, os alunos das disciplinas de
                             cálculo melhoraram consideravelmente a compreensão das geometrias com estes modelos."</p>
-                        <h5 class="u-text u-text-7">Nilda Medida</h5>
+                        <h5 class="u-text u-text-7">Pâmela Santos</h5>
                         <h6 class="u-text u-text-8">Coordenadora</h6>
                     </div>
                 </div>
                 <div class="u-align-center u-container-style u-list-item u-repeater-item">
                     <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
-                        <div alt="" class="u-image u-image-circle u-image-3" src="" data-image-width="256"
+                        <div alt="" class="u-image u-image-circle u-image-m" src="" data-image-width="256"
                             data-image-height="256"></div>
                         <p class="u-text u-text-9">"bão, pó comprar."</p>
-                        <h5 class="u-text u-text-7">Ramost</h5>
+                        <h5 class="u-text u-text-7">Um Usuário</h5>
                         <h6 class="u-text u-text-11">Professor</h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<section class="u-align-center u-grey-5 u-clearfix u-section-8" id="sec-1802">
+  <div class="u-clearfix u-sheet u-sheet-1">
+      <h2 class="u-text u-text-default u-text-1">Nossos Parceiros</h2>
+      <p class="u-text u-text-2">Estas são as empresas que apoiam o nosso projeto. <a href=""
+              class="u-active-none u-border-1 u-border-grey-75 u-border-no-left u-border-no-right u-border-no-top u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"
+              target="_blank">Clique aqui</a> para se tornar um apiador.
+      </p>
+      <div class="u-expanded-width u-list u-list-1">
+          <div class="u-repeater u-repeater-1">
+              <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+                      <div alt="" class="u-image u-image-circle u-image-al-1" src="" data-image-width="256"
+                          data-image-height="256"></div>
+                      <h5 class="u-text u-text-4">Theropoda Games Studios</h5>
+                      <h6 class="u-text u-text-5">Platina</h6>
+                  </div>
+              </div>
+              <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                      <div alt="" class="u-image u-image-circle u-image-al-2" src="" data-image-width="256"
+                          data-image-height="256"></div>
+                      <h5 class="u-text u-text-7">Blue Software</h5>
+                      <h6 class="u-text u-text-8">Platina</h6>
+                  </div>
+              </div>
+              <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                  <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
+                      <div alt="" class="u-image u-image-circle u-image-al-3" src="" data-image-width="256"
+                          data-image-height="256"></div>
+                      <h5 class="u-text u-text-7">Impressoras da Bahia</h5>
+                      <h6 class="u-text u-text-11">Platina</h6>
+                  </div>
+              </div>
+              <div class="u-align-center u-container-style u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                    <div alt="" class="u-image u-image-circle u-image-al-4" src="" data-image-width="256"
+                        data-image-height="256"></div>
+                    <h5 class="u-text u-text-7">PXT Softworks</h5>
+                    <h6 class="u-text u-text-8">Ouro</h6>
+                </div>
+            </div>
+            <div class="u-align-center u-container-style u-list-item u-repeater-item">
+              <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                  <div alt="" class="u-image u-image-circle u-image-al-5" src="" data-image-width="256"
+                      data-image-height="256"></div>
+                  <h5 class="u-text u-text-7">CodeLab</h5>
+                  <h6 class="u-text u-text-8">Ouro</h6>
+              </div>
+          </div>
+          <div class="u-align-center u-container-style u-list-item u-repeater-item">
+            <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+                <div alt="" class="u-image u-image-circle u-image-al-6" src="" data-image-width="256"
+                    data-image-height="256"></div>
+                <h5 class="u-text u-text-7">Quadline Solutions</h5>
+                <h6 class="u-text u-text-8">Ouro</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
 </section>
 @endsection
