@@ -33,9 +33,19 @@
               <p>{{$product->Description}}</p>
             </div>
             <div class="u-product-control u-product-desc u-text u-text-2">
-              <p>Categoria: {{$product->Category}}</p>
+              <p><b>Categoria: </b>{{$product->Category}}</p>
             </div>
             <a href="#" class="u-black u-btn u-button-style u-product-control u-btn-1">Add to Cart</a>
+            <br>
+            <div class="u-product-control u-product-desc u-text u-text-2">
+              <b>OU</b>
+            </div>
+            <br>
+            <div class="u-product-control u-product-desc u-text u-text-3">
+              <a href="/downloadfile/{{$product->ProductID}}" class="u-black u-btn u-button-style u-product-control u-btn-1"><span class="material-symbols-outlined">
+                download
+                </span> Baixar Arquivo</a>
+            </div>
           </div>
         </div>
       </div>
