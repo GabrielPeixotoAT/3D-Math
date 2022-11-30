@@ -14,6 +14,13 @@
         <div class="u-expanded-width u-list u-list-1">
             <div class="col-6 offset-3">
                 <article>
+                    <h4>Modelo de Negócios</h4>
+                    <p>
+
+                    </p>
+                </article>
+                <br>
+                <article>
                     <h4>Objetivo</h4>
                     <p>
 
